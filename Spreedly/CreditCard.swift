@@ -9,7 +9,7 @@
 import Foundation
 
 open class CreditCard: NSObject {
-    open var firstName, lastName, number, verificationValue, month, year: String?
+    open var firstName, lastName, fullName, number, verificationValue, month, year: String?
     open var address1, address2, city, state, zip, country, phoneNumber: String?
     
     public override init() {}
